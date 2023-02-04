@@ -1,0 +1,99 @@
+/************************************ start web-development-section *****************************************/
+.title {
+    margin: 50px 0 40px 0;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.right-section .web .front,
+.right-section .web .back,
+.right-section .web .full {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    min-height: 180px;
+}
+
+.right-section .web .front .head,
+.right-section .web .back .head,
+.right-section .web .full .head {
+    background-color: #333;
+    color: #ffff;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+}
+
+.right-section .web .front .head h1,
+.right-section .web .back .head h1,
+.right-section .web .full .head h1 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.right-section .web .front .pictures img,
+.right-section .web .back .pictures img,
+.right-section .web .full .pictures img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+/************************************ end web-development-section *****************************************/
+
+/************************************ start number-section *****************************************/
+.right-section .number h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: brown;
+}
+
+.right-section .number div span {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-section .number div div div {
+    border: 1px solid brown;
+    border-bottom: 25px solid brown;
+    height: 120px;
+    transition: ease 0.3s;
+}
+
+.right-section .number div div div:hover {
+    border: 1px solid brown;
+    height: 100px;
+}
+
+/************************************ end number-section *****************************************/
+
+/************************************ start opinion-section *****************************************/
+.opinion {
+    margin: 150px 0;
+}
+
+.opinion img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.opinion h1 {
+    color: brown;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.opinion p {
+    width: 80%;
+    margin: auto;
+}
+
+/************************************ end opinion-section *****************************************/

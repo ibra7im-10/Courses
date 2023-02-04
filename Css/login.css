@@ -1,0 +1,32 @@
+.login h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.details {
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 10px 2px #8a8a8a;
+    background-color: brown;
+    color: #fff;
+    width: 45%;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+
+@media (max-width:992px) {
+    .details {
+        width: 90%;
+    }
+}
+
+@media (max-width:600px) {
+    .details {
+        font-size: 12px;
+        width: 95%;
+    }
+}

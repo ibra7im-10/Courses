@@ -1,0 +1,200 @@
+.left-section {
+  background-color: brown;
+  min-height: 100vh;
+  width: 15%;
+  text-align: center;
+  padding: 30px 0;
+  transition: ease 0.4s;
+}
+
+.right-section {
+  background-color: #ddd;
+  width: 85%;
+  transition: ease 0.4s;
+}
+
+/************************************ start left-section *****************************************/
+.left-section .logo {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.left-section ul {
+  transition: ease 0.4s;
+}
+
+.left-section ul li a {
+  display: block;
+  background-color: #fff;
+  color: brown;
+  padding: 4px 0;
+  margin: 10px auto;
+  width: 90%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.left-section .courses ul,
+.left-section .persona-pro ul {
+  background-color: rgb(177, 101, 101);
+  padding: 5px 0;
+  width: 90%;
+  margin: auto;
+}
+
+.left-section .courses ul li a,
+.left-section .persona-pro ul li a {
+  color: #fff;
+  background-color: rgb(78, 28, 28);
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.left-section .icons {
+  display: none;
+  padding: 20px 0;
+}
+
+.left-section button {
+  width: 50px;
+  font-size: 22px;
+}
+
+/************************************ end left-section *****************************************/
+
+/************************************ start right-section *****************************************/
+.notifiact {
+  top: -600px;
+  right: 10px;
+  width: 450px;
+  z-index: 111;
+  transition: ease 0.3s;
+}
+
+.notifiact.display {
+  top: 80px;
+}
+
+
+.right-section .nav {
+  background-color: #fff;
+}
+
+.right-section input {
+  outline: none;
+  border: none;
+}
+
+.right-section i {
+  cursor: pointer;
+}
+
+.right-section .content h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right-section .content span {
+  color: brown;
+}
+
+.right-section p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.right-section .images {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.right-section .images img {
+  width: 350px;
+  height: 220px;
+  transition: ease 0.3s;
+  border-radius: 10px;
+  filter: contrast(0.5);
+  box-shadow: 5px 5px 0px 1px brown;
+}
+
+.right-section .images img:hover {
+  filter: contrast(1);
+}
+
+.right-section footer {
+  margin-top: 80px;
+  margin-left: -10px;
+  margin-right: -12px;
+  padding-bottom: 1px;
+}
+
+.right-section footer h3 {
+  color: brown;
+}
+
+/************************************ end right-section *****************************************/
+
+/************************************ start add active-class *****************************************/
+.left-section.active {
+  width: 10%;
+}
+
+.right-section.active {
+  width: 90%;
+}
+
+.left-section ul.active {
+  display: none;
+}
+
+.left-section .icons.active {
+  display: block;
+}
+
+/************************************ end add active-class *****************************************/
+
+/************************************ start media-quairy *****************************************/
+@media (max-width: 600px) {
+  .left-section .logo {
+    font-size: 30px;
+  }
+
+  .left-section ul {
+    display: none;
+  }
+
+  .left-section .icons {
+    display: block;
+  }
+
+  .left-section button {
+    width: 35px;
+    font-size: 16px;
+  }
+
+  .notifiact {
+    width: 320px;
+  }
+
+  .right-section .nav input {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .right-section .images img {
+    width: 250px;
+    height: 180px;
+  }
+}
+
+/************************************ end media-quairy *****************************************/

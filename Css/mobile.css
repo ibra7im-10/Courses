@@ -1,0 +1,68 @@
+/************************************ start web-development-section *****************************************/
+.title {
+    margin: 80px 0 40px 0;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.right-section .mobile .flutter,
+.right-section .mobile .java {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    min-height: 180px;
+    transition: ease 0.3s;
+}
+
+.right-section .mobile .flutter .head,
+.right-section .mobile .java .head {
+    background-color: #333;
+    color: #ffff;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+}
+
+.right-section .web .flutter .head h1,
+.right-section .web .java .head h1 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.right-section .mobile .flutter .pictures img,
+.right-section .mobile .java .pictures img {
+    width: 60px;
+    height: 40px;
+    margin: 10px;
+}
+
+/************************************ end web-development-section *****************************************/
+
+/************************************ start number *****************************************/
+.right-section .number h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 80px 0 30px;
+    font-size: 38px;
+    color: brown;
+}
+
+.right-section .number div span {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-section .number div div div {
+    border: 1px solid brown;
+    border-left: 35px solid brown;
+    height: 120px;
+    transition: ease 0.3s;
+}
+
+.right-section .number div div div:hover {
+    border: 1px solid brown;
+}
+
+/************************************ end number *****************************************/
